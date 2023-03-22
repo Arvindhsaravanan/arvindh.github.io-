@@ -1,0 +1,78 @@
+/* Global styles */
+Body {
+  Font-family: Arial, sans-serif;
+  Margin: 0;
+}
+
+/* Header styles */
+.header {
+  Background-color: #24292e;
+  Color: #ffffff;
+  Display: flex;
+  Justify-content: space-between;
+  Align-items: center;
+  Height: 50px;
+  Padding: 0 20px;
+}
+
+.header__logo {
+  Font-size: 24px;
+}
+
+.header__nav {
+  Display: flex;
+}
+
+.header__nav-item {
+  Margin-right: 20px;
+  Font-size: 16px;
+}
+
+.header__nav-link {
+  Color: #ffffff;
+  Text-decoration: none;
+}
+
+/* Main styles */
+.main {
+  Display: flex;
+  Flex-direction: column;
+  Align-items: center;
+  Padding: 50px;
+}
+
+.main__title {
+  Font-size: 36px;
+  Margin-bottom: 30px;
+}
+
+.main__subtitle {
+  Font-size: 24px;
+  Margin-bottom: 50px;
+}
+
+.main__section {
+  Margin-bottom: 50px;
+  Width: 100%;
+  Max-width: 800px;
+}
+
+.main__section-title {
+  Font-size: 24px;
+  Margin-bottom: 20px;
+}
+
+.main__section-text {
+  Font-size: 16px;
+  Line-height: 1.5;
+  Margin-bottom: 30px;
+}
+
+/* Footer styles */
+.footer {
+  Background-color: #f6f8fa;
+  Padding: 20px;
+  Text-align: center;
+  Font-size: 14px;
+}
+
